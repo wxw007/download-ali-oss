@@ -1,0 +1,24 @@
+{
+  "name": "downloadalioss",
+  "version": "0.2.0",
+  "description": "download file from ali-oss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxw007/download-ali-oss.git"
+  },
+  "author": "wuxiaowei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wxw007/download-ali-oss/issues"
+  },
+  "homepage": "https://github.com/wxw007/download-ali-oss#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "file-saver": "^2.0.2",
+    "jszip": "^3.2.2"
+  }
+}
