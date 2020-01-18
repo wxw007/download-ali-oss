@@ -2,12 +2,12 @@
 
 ## 安装
 ```
-npm install downloadFromAliOss
+npm install downloadalioss
 ```
 
 ## 引入
 ```
-import downloadFromAliOss from "downloadFromAliOss"
+import downloadalioss from "downloadalioss"
 ```
 ## 使用
 ```
@@ -23,5 +23,5 @@ let fileArr = [
 let packageName = '附件.zip'; // (可选) 下载的压缩包名字, 需要带上 .zip 扩展名, 不填写默认为 '文件.zip'
 
 //下载
-downloadFromAliOss(fileArr, packageName)
+downloadalioss(fileArr, packageName)
 ```
