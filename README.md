@@ -14,7 +14,7 @@ import downloadalioss from "downloadalioss"
 // 文件数据结构
 let fileArr = [
     {
-        url: '' //文件的oss存储路径 (必填)
+        url: '', //文件的oss存储路径 (必填)
         name: '头像1', // 文件名 (可选, 不需要填扩展名)
         foldPath: '目录1/目录2/' (可选, 文件在压缩包中的存储路径)
     }
