@@ -6,6 +6,9 @@ var FileSaver = require("file-saver");
 var getFile = url => {
     return new Promise((resolve, reject) => {
         axios({
+            headers:{
+                'Cache-control': 'no-cache',
+            },
             method: "get",
             url,
             responseType: "arraybuffer"
